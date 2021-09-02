@@ -7,12 +7,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FilmComponent } from './film/film.component';
 import { ListFilmComponent } from './list-film/list-film.component';
+import { NavComponent } from './nav/nav.component';
+import { DetailFilmComponent } from './detail-film/detail-film.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FilmComponent,
-    ListFilmComponent
+    ListFilmComponent,
+    NavComponent,
+    DetailFilmComponent
   ],
   imports: [
     BrowserModule,
